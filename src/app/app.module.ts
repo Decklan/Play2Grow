@@ -4,11 +4,17 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
+import { OtComponent } from './components/ot/ot.component';
+import { StComponent } from './components/st/st.component';
+import { GettingStartedComponent } from './components/getting-started/getting-started.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    OtComponent,
+    StComponent,
+    GettingStartedComponent
   ],
   imports: [
     BrowserModule,
