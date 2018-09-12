@@ -8,7 +8,8 @@ li {
     margin-right: 1px;
 }
 
-li:hover {
-    background-color: #2dc44f;
-    border-radius: 5px;
-}
+.nav-container {
+    background-image: url('../assets/img/nav-bg.png');
+    background-repeat: repeat-x;
+    background-position: center top;
+} 
