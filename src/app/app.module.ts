@@ -7,6 +7,7 @@ import { HomeComponent } from './components/home/home.component';
 import { OtComponent } from './components/ot/ot.component';
 import { StComponent } from './components/st/st.component';
 import { GettingStartedComponent } from './components/getting-started/getting-started.component';
+import { P2gFooterComponent } from './components/p2g-footer/p2g-footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { GettingStartedComponent } from './components/getting-started/getting-st
     HomeComponent,
     OtComponent,
     StComponent,
-    GettingStartedComponent
+    GettingStartedComponent,
+    P2gFooterComponent
   ],
   imports: [
     BrowserModule,
