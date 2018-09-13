@@ -20,9 +20,9 @@
       <div class="col-md-4">
         <img src="../../../assets/img/filler.png" alt="filler" class="float-left rounded">
       </div>
-      <div class="col-md-8">
+      <div class="col-md-8 border border-success bg-white rounded">
         <h3 class="lead text-success">Speech Disorders</h3>
-        <p class="text-muted text-left bg-light bg-secondary">
+        <p class="text-muted text-left mb-0">
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
@@ -37,9 +37,9 @@
       <div class="col-md-4">
         <img src="../../../assets/img/filler.png" alt="filler" class="float-left rounded">
       </div>
-      <div class="col-md-8">
+      <div class="col-md-8 border border-success bg-white rounded">
         <h3 class="lead text-success">Language Disorders</h3>
-        <p class="text-muted text-left bg-light bg-secondary">
+        <p class="text-muted text-left mb-0">
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
@@ -65,8 +65,10 @@
           </li>
         </ul>
       </div>
-      <div class="col-md-8 border border-success rounded bg-white">
-        {{ disorders[currentDisorder].disorderDescription }}
+      <div class="col-md-8 border border-success rounded bg-white pt-2">
+        <p class="text-center lead text-success">{{ disorders[currentDisorder].disorderName }}</p>
+        <hr>
+        <p class="text-left">{{ disorders[currentDisorder].disorderDescription }}</p>
       </div>
     </div>
     <div class="row pl-3 pt-2">
