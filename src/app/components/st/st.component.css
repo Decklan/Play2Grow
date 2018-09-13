@@ -6,3 +6,8 @@
 .name:hover {
     cursor: pointer;
 }
+
+.current {
+    background-color: #00b33c;
+    color: white;   
+}
