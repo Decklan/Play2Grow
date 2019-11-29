@@ -4,13 +4,11 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './components/home/home.component';
 import { OtComponent } from './components/ot/ot.component';
-import { StComponent } from './components/st/st.component';
 
 const routes: Routes = [
     { path: '', redirectTo:'/home', pathMatch: 'full'},
     { path: 'home', component: HomeComponent },
     { path: 'ot', component: OtComponent },
-    { path: 'speech', component: StComponent },
     { path: 'starting', component: GettingStartedComponent }
 ];
 
